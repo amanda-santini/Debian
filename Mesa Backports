@@ -1,0 +1,1 @@
+apt install -t jessie-backports libegl1-mesa libegl1-mesa-drivers libgbm1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libgles1-mesa libgles2-mesa libglu1-mesa libwayland-egl1-mesa libgl1-mesa-glx:i386
