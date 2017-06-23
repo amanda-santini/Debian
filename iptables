@@ -1,0 +1,5 @@
+nano /etc/network/if-pre-up.d/iptables
+
+#!/bin/sh
+/sbin/iptables-restore < /etc/iptables.up.rules
+exit 0
