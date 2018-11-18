@@ -1,0 +1,22 @@
+libegl1-mesa libgbm1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libglapi-mesa:i386 libgles2-mesa libwayland-egl1 mesa-va-drivers mesa-vdpau-drivers libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 
+
+root@amarildo:~# apt -t stretch-backports install libegl1-mesa libgbm1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libglapi-mesa:i386 libgles2-mesa libwayland-egl1 mesa-va-drivers mesa-vdpau-drivers libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libgcrypt20:i386 libllvm3.9:i386 libtxc-dxtn-s2tc
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  libdrm-amdgpu1 libdrm-amdgpu1:i386 libdrm-common libdrm2 libdrm2:i386 libegl-mesa0 libegl1 libgl1 libgl1:i386 libgles2 libglvnd0 libglvnd0:i386 libglx-mesa0
+  libglx-mesa0:i386 libglx0 libglx0:i386 libllvm6.0 libllvm6.0:i386 libwayland-client0 libwayland-egl1-mesa libwayland-server0 libxcb-xfixes0:i386
+The following NEW packages will be installed:
+  libdrm-common libegl-mesa0 libegl1 libgl1 libgl1:i386 libgles2 libglvnd0 libglvnd0:i386 libglx-mesa0 libglx-mesa0:i386 libglx0 libglx0:i386 libllvm6.0
+  libllvm6.0:i386 libwayland-egl1 libxcb-xfixes0:i386
+The following packages will be upgraded:
+  libdrm-amdgpu1 libdrm-amdgpu1:i386 libdrm2 libdrm2:i386 libegl1-mesa libgbm1 libgl1-mesa-dri libgl1-mesa-dri:i386 libgl1-mesa-glx libgl1-mesa-glx:i386 libglapi-mesa
+  libglapi-mesa:i386 libgles2-mesa libwayland-client0 libwayland-egl1-mesa libwayland-server0 mesa-va-drivers mesa-vdpau-drivers
+18 upgraded, 16 newly installed, 0 to remove and 112 not upgraded.
+Need to get 49.0 MB of archives.
+After this operation, 205 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
