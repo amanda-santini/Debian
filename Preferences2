@@ -1,0 +1,75 @@
+#######################################################################################
+###         This file prevents Debian from installing the following packages        ###
+###                 To use it, simply paste it to /etc/apt/preferences              ###
+###                     See: https://wiki.debian.org/AptPreferences                 ###
+#######################################################################################
+
+########################
+#### No GeoLocation ####
+########################
+## This works for KDE ##
+##   MATE, Cinnamon   ##
+##      and etc       ##
+########################
+Package: geoclue* *-geoclue zeitgeist* libqzeitgeist* libzeitgeist* qml-module-qtlocation qtlocation* qtpositioning* *qtpositioning *.qtpositioning-* libqtlocation* libplasma-geoclocation-* *-zeitgeist *-zeitgeist-* libgeocoding* libgeoclue* libqt5location5*  libgeocode-* *geocodeglib* 
+Pin: origin *
+Pin-Priority: -32768
+
+##########################
+######### NoPRISM ########
+##########################
+##  Pacakges that pose  ##
+## risk to user privacy ##
+## It will break some   ##
+## Desktop Environments ##
+##########################
+Package: *amsn* checkgmail clamz ekg *flickcurl* *flickrnet* *gdata* gnome-documents gnome-online-miners  gnome-photos googlecloudapis calendar-google-provider *google* kmess libgadu* *libgdata* libkgapi* libmsn* minitube pyicqt pymsnt s3cmd  ttytter ubuntuone-client-gnome yahoo-t chromium chromium-* *chromium* libgoa-* libgoogle-* kopete libkopete4
+Pin: origin *
+Pin-Priority: -32768
+
+#######################
+#### No Java Stuff ####
+#######################
+Package: *-jre *default-jre* openjdk-* default-jdk* *-jdk *-openjdk-* *icedtea* 
+Pin: origin *
+Pin-Priority: -32768
+
+################################
+## Steam and firmware allowed ##
+################################
+Package: steam:i386 firmware-linux-nonfree firmware-misc-nonfree firmware-amd-graphics
+Pin: origin *
+Pin-Priority: 1
+
+########################################
+## All other non-Free packages denied ##
+########################################
+Package: *
+Pin: origin *
+Pin: release o=Debian,a=stable,n=stretch,c=non-free
+Pin-Priority: -327
+
+Package: *
+Pin: origin *
+Pin: release o=Debian,a=stable,n=stretch,c=contrib
+Pin-Priority: -327
+
+Package: *
+Pin: origin *
+Pin: release o=Debian Backports,l=Debian Backports,c=non-free
+Pin-Priority: -327
+
+Package: *
+Pin: origin *
+Pin: release o=Debian Backports,c=non-free
+Pin-Priority: -327
+
+Package: *
+Pin: origin *
+Pin: release o=Debian Backports,c=contrib
+Pin-Priority: -327
+
+Package: *
+Pin: origin *
+Pin: release 
+Pin-Priority: -327
