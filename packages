@@ -1,0 +1,109 @@
+##################
+#### geoclue #####
+##################
+wget https://paste.opensuse.org/view/raw/70869968
+cp 70869968 geoclue
+equivs-build geoclue
+
+##################
+### geoclue-2.0 ##
+##################
+wget https://paste.opensuse.org/view/raw/2673228
+cp 2673228 geoclue-2.0
+equivs-build geoclue-2.0
+
+###################
+# gnome-documents #
+###################
+wget https://paste.opensuse.org/view/raw/62505178
+cp 62505178 gnome-documents
+equivs-build gnome-documents
+
+#########################
+## gnome-online-miners ##
+#########################
+wget https://paste.opensuse.org/view/raw/28722234
+cp 28722234 gnome-online-miners
+equivs-build gnome-online-miners
+
+######################
+### kopete ###########
+######################
+wget https://paste.opensuse.org/view/raw/75513183
+cp 75513183 kopete
+equivs-build kopete
+
+########################
+### libgadu3 ###########
+########################
+wget https://paste.opensuse.org/view/raw/59894845
+cp 59894845 libgadu3
+equivs-build libgadu3
+
+#####################
+## libgdata19 #######
+#####################
+wget https://paste.opensuse.org/view/raw/91825323
+cp 91825323 libgdata19
+equivs-build libgdata19
+
+########################
+## libgdata22 ##########
+########################
+wget https://paste.opensuse.org/view/raw/88054841
+cp 88054841 libgdata22
+equivs-build libgdata22
+
+#########################
+##### libgdata-common ###
+#########################
+wget https://paste.opensuse.org/view/raw/55531513
+cp 55531513 libgdata-common
+equivs-build libgdata-common
+
+#######################
+#### libgeoclue0 ######
+#######################
+wget https://paste.opensuse.org/view/raw/50268628
+cp 50268628 libgeoclue0
+equivs-build libgeoclue0
+
+#######################
+#### libgoa-1.0-0b ####
+#######################
+wget https://paste.opensuse.org/view/raw/28781803
+cp 28781803 libgoa-1.0-0b
+equivs-build libgoa-1.0-0b
+
+#################
+## libkgapi1 ####
+#################
+wget https://paste.opensuse.org/view/raw/88686014
+cp 88686014 libkgapi1
+equivs-build libkgapi1
+
+##################
+## libkgapi2-2 ###
+##################
+wget https://paste.opensuse.org/view/raw/12263557
+cp 12263557 libkgapi2-2
+equivs-build libkgapi2-2
+
+###################
+### libmsn0.3 #####
+###################
+wget https://paste.opensuse.org/view/raw/32316126
+cp 32316126 libmsn0.3
+equivs-build libmsn0.3
+
+##################
+### libmsn0.3v5 ##
+##################
+wget https://paste.opensuse.org/view/raw/57854355
+cp 57854355 libmsn0.3v5
+equivs-build libmsn0.3v5
+
+#########################
+####### INSTALLING ######
+#########################
+dpkg -i *.deb 
