@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 ## Original by tuxutku (https://gist.github.com/tuxutku/79daa2edca131c1525a136b650cdbe0a)
 ## Modified by haxpor (https://gist.github.com/haxpor/8533fde401853615f4b2e4510048a319)
 prefix='amdgpu-pro-'
